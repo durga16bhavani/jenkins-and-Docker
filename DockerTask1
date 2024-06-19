@@ -1,0 +1,791 @@
+Script started on 2024-06-08 20:05:56+10:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="126" LINES="38"]
+[?2004h]0;root@durgabhavani-virtual-machine: ~root@durgabhavani-virtual-machine:~# docker pull hello-world
+[?2004l
+Using default tag: latest
+^[[Alatest: Pulling from library/hello-world
+
+[1A[2K
+c1ec31eb5944: Pulling fs layer 
+[1B[1A[2K
+c1ec31eb5944: Downloading [==============>                                    ]     720B/2.459kB
+[1B[1A[2K
+c1ec31eb5944: Downloading [==================================================>]  2.459kB/2.459kB
+[1B[1A[2K
+c1ec31eb5944: Verifying Checksum 
+[1B[1A[2K
+c1ec31eb5944: Download complete 
+[1B[1A[2K
+c1ec31eb5944: Extracting [==================================================>]  2.459kB/2.459kB
+[1B[1A[2K
+c1ec31eb5944: Extracting [==================================================>]  2.459kB/2.459kB
+[1B[1A[2K
+c1ec31eb5944: Pull complete 
+[1BDigest: sha256:266b191e926f65542fa8daaec01a192c4d292bff79426f47300a046e1bc576fd
+Status: Downloaded newer image for hello-world:latest
+docker.io/library/hello-world:latest
+[?2004h]0;root@durgabhavani-virtual-machine: ~root@durgabhavani-virtual-machine:~# docker pull hello-worldscript /home/durgabhavani/Downloads/Task1.sh
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker ps -a[Kscript /home/durgabhavani/Downloads/Task1.sh
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pdocker pull hello-world[1P hello-world[1P hello-world[1P hello-world[1P hello-worldr hello-worldu hello-worldn hello-world[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+[?2004h]0;root@durgabhavani-virtual-machine: ~root@durgabhavani-virtual-machine:~# docker pull nginx
+[?2004l
+Using default tag: latest
+latest: Pulling from library/nginx
+
+[1A[2K
+09f376ebb190: Pulling fs layer 
+[1B
+[1A[2K
+5529e0792248: Pulling fs layer 
+[1B
+[1A[2K
+9b3addd3eb3d: Pulling fs layer 
+[1B
+[1A[2K
+57910a8c4316: Pulling fs layer 
+[1B
+[1A[2K
+7b5f78f21449: Pulling fs layer 
+[1B
+[1A[2K
+b7923aa4e8a6: Pulling fs layer 
+[1B
+[1A[2K
+785625911f12: Pulling fs layer 
+[1B[4A[2K
+57910a8c4316: Waiting 
+[4B[3A[2K
+7b5f78f21449: Waiting 
+[3B[2A[2K
+b7923aa4e8a6: Waiting 
+[2B[1A[2K
+785625911f12: Waiting 
+[1B[6A[2K
+5529e0792248: Downloading [>                                                  ]    426kB/41.83MB
+[6B[7A[2K
+09f376ebb190: Downloading [>                                                  ]  298.2kB/29.15MB
+[7B[5A[2K
+9b3addd3eb3d: Downloading [==================================================>]     628B/628B
+[5B[5A[2K
+9b3addd3eb3d: Verifying Checksum 
+[5B[5A[2K
+9b3addd3eb3d: Download complete 
+[5B[7A[2K
+09f376ebb190: Downloading [=>                                                 ]  896.2kB/29.15MB
+[7B[6A[2K
+5529e0792248: Downloading [=>                                                 ]  1.285MB/41.83MB
+[6B[6A[2K
+5529e0792248: Downloading [====>                                              ]  3.411MB/41.83MB
+[6B[7A[2K
+09f376ebb190: Downloading [===>                                               ]  2.076MB/29.15MB
+[7B[6A[2K
+5529e0792248: Downloading [=====>                                             ]  4.689MB/41.83MB
+[6B[7A[2K
+09f376ebb190: Downloading [======>                                            ]  3.555MB/29.15MB
+[7B[6A[2K
+5529e0792248: Downloading [=======>                                           ]  6.385MB/41.83MB
+[6B[7A[2K
+09f376ebb190: Downloading [=========>                                         ]  5.332MB/29.15MB
+[7B[6A[2K
+5529e0792248: Downloading [=========>                                         ]  7.671MB/41.83MB
+[6B[7A[2K
+09f376ebb190: Downloading [=============>                                     ]  7.696MB/29.15MB
+[7B[6A[2K
+5529e0792248: Downloading [==========>                                        ]  8.523MB/41.83MB
+[6B[7A[2K
+09f376ebb190: Downloading [==============>                                    ]   8.58MB/29.15MB
+[7B[6A[2K
+5529e0792248: Downloading [===========>                                       ]  9.801MB/41.83MB
+[6B[7A[2K
+09f376ebb190: Downloading [================>                                  ]   9.76MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Downloading [=====================>                             ]  12.45MB/29.15MB
+[7B[6A[2K
+5529e0792248: Downloading [============>                                      ]  10.67MB/41.83MB
+[6B[7A[2K
+09f376ebb190: Downloading [========================>                          ]  14.23MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Downloading [============================>                      ]   16.6MB/29.15MB
+[7B[6A[2K
+5529e0792248: Downloading [==============>                                    ]  12.37MB/41.83MB
+[6B[7A[2K
+09f376ebb190: Downloading [================================>                  ]  18.67MB/29.15MB
+[7B[6A[2K
+5529e0792248: Downloading [===============>                                   ]  13.22MB/41.83MB
+[6B[7A[2K
+09f376ebb190: Downloading [===================================>               ]  20.73MB/29.15MB
+[7B[4A[2K
+57910a8c4316: Downloading [=====================================>             ]     721B/959B
+[4B[4A[2K
+57910a8c4316: Downloading [==================================================>]     959B/959B
+[4B[4A[2K
+57910a8c4316: Verifying Checksum 
+[4B[4A[2K
+57910a8c4316: Download complete 
+[4B[6A[2K
+5529e0792248: Downloading [=================>                                 ]  14.93MB/41.83MB
+[6B[7A[2K
+09f376ebb190: Downloading [======================================>            ]   22.5MB/29.15MB
+[7B[6A[2K
+5529e0792248: Downloading [===================>                               ]  16.64MB/41.83MB
+[6B[7A[2K
+09f376ebb190: Downloading [==========================================>        ]  24.57MB/29.15MB
+[7B[6A[2K
+5529e0792248: Downloading [======================>                            ]  18.77MB/41.83MB
+[6B[7A[2K
+09f376ebb190: Downloading [============================================>      ]  26.04MB/29.15MB
+[7B[6A[2K
+5529e0792248: Downloading [========================>                          ]  20.47MB/41.83MB
+[6B[7A[2K
+09f376ebb190: Downloading [==============================================>    ]  26.93MB/29.15MB
+[7B[6A[2K
+5529e0792248: Downloading [===========================>                       ]   22.6MB/41.83MB
+[6B[7A[2K
+09f376ebb190: Downloading [================================================>  ]  28.11MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Verifying Checksum 
+[7B[7A[2K
+09f376ebb190: Download complete 
+[7B[6A[2K
+5529e0792248: Downloading [=============================>                     ]   24.3MB/41.83MB
+[6B[6A[2K
+5529e0792248: Downloading [===============================>                   ]  26.44MB/41.83MB
+[6B[6A[2K
+5529e0792248: Downloading [=================================>                 ]  28.15MB/41.83MB
+[6B[6A[2K
+5529e0792248: Downloading [====================================>              ]  30.28MB/41.83MB
+[6B[7A[2K
+09f376ebb190: Extracting [>                                                  ]  294.9kB/29.15MB
+[7B[6A[2K
+5529e0792248: Downloading [======================================>            ]  31.98MB/41.83MB
+[6B[7A[2K
+09f376ebb190: Extracting [=>                                                 ]  884.7kB/29.15MB
+[7B[6A[2K
+5529e0792248: Downloading [========================================>          ]  33.69MB/41.83MB
+[6B[3A[2K
+7b5f78f21449: Downloading [==================================================>]     397B/397B
+[3B[3A[2K
+7b5f78f21449: Verifying Checksum 
+[3B[3A[2K
+7b5f78f21449: Download complete 
+[3B[6A[2K
+5529e0792248: Downloading [==========================================>        ]  35.81MB/41.83MB
+[6B[7A[2K
+09f376ebb190: Extracting [==>                                                ]   1.18MB/29.15MB
+[7B[6A[2K
+5529e0792248: Downloading [=============================================>     ]  38.36MB/41.83MB
+[6B[7A[2K
+09f376ebb190: Extracting [==>                                                ]  1.475MB/29.15MB
+[7B[6A[2K
+5529e0792248: Downloading [=================================================> ]  41.35MB/41.83MB
+[6B[6A[2K
+5529e0792248: Verifying Checksum 
+[6B[6A[2K
+5529e0792248: Download complete 
+[6B[7A[2K
+09f376ebb190: Extracting [===>                                               ]  1.769MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [=====>                                             ]  2.949MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [=======>                                           ]  4.129MB/29.15MB
+[7B[2A[2K
+b7923aa4e8a6: Downloading [=============================>                     ]     720B/1.213kB
+[2B[2A[2K
+b7923aa4e8a6: Downloading [==================================================>]  1.213kB/1.213kB
+[2B[2A[2K
+b7923aa4e8a6: Verifying Checksum 
+[2B[2A[2K
+b7923aa4e8a6: Download complete 
+[2B[7A[2K
+09f376ebb190: Extracting [========>                                          ]  5.014MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [==========>                                        ]  5.898MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [===========>                                       ]  6.783MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [=============>                                     ]  7.668MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [==============>                                    ]  8.552MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [===============>                                   ]  9.142MB/29.15MB
+[7B[1A[2K
+785625911f12: Downloading [=========================>                         ]     720B/1.402kB
+[1B[1A[2K
+785625911f12: Downloading [==================================================>]  1.402kB/1.402kB
+[1B[1A[2K
+785625911f12: Verifying Checksum 
+[1B[1A[2K
+785625911f12: Download complete 
+[1B[7A[2K
+09f376ebb190: Extracting [================>                                  ]  9.437MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [=================>                                 ]  10.03MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [==================>                                ]  10.62MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [===================>                               ]  11.21MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [====================>                              ]   11.8MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [=====================>                             ]  12.68MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [=======================>                           ]  13.57MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [=========================>                         ]  14.75MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [===========================>                       ]  15.93MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [============================>                      ]  16.81MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [==============================>                    ]  17.69MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [================================>                  ]  18.87MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [=================================>                 ]  19.76MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [===================================>               ]  20.64MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [====================================>              ]  21.53MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [======================================>            ]  22.41MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [=======================================>           ]     23MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [========================================>          ]  23.59MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [========================================>          ]  23.89MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [=========================================>         ]  24.48MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [==========================================>        ]  24.77MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [===========================================>       ]  25.36MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [=============================================>     ]  26.25MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [==============================================>    ]  26.84MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [===============================================>   ]  27.43MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [===============================================>   ]  27.72MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [================================================>  ]  28.02MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [================================================>  ]  28.31MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [=================================================> ]   28.9MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Extracting [==================================================>]  29.15MB/29.15MB
+[7B[7A[2K
+09f376ebb190: Pull complete 
+[7B[6A[2K
+5529e0792248: Extracting [>                                                  ]    426kB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [=>                                                 ]  1.278MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [==>                                                ]   2.13MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [===>                                               ]  2.982MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [====>                                              ]  3.834MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [=====>                                             ]  4.686MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [=======>                                           ]  5.964MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [========>                                          ]  6.816MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [=========>                                         ]  7.668MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [==========>                                        ]  8.946MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [============>                                      ]  10.22MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [=============>                                     ]  11.08MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [==============>                                    ]  12.35MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [===============>                                   ]  13.21MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [================>                                  ]  14.06MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [=================>                                 ]  14.91MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [==================>                                ]  15.76MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [====================>                              ]  17.04MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [=====================>                             ]  18.32MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [======================>                            ]  19.17MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [=======================>                           ]  20.02MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [========================>                          ]  20.87MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [==========================>                        ]  22.15MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [===========================>                       ]     23MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [============================>                      ]  23.43MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [=============================>                     ]  24.28MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [=============================>                     ]  24.71MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [==============================>                    ]  25.56MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [===============================>                   ]  26.41MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [================================>                  ]  27.26MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [==================================>                ]  28.54MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [===================================>               ]  29.39MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [====================================>              ]  30.24MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [=====================================>             ]   31.1MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [======================================>            ]  31.95MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [=======================================>           ]   32.8MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [========================================>          ]  33.65MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [========================================>          ]  34.08MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [=========================================>         ]  34.93MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [==========================================>        ]  35.36MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [==========================================>        ]  35.78MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [===========================================>       ]  36.21MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [============================================>      ]  37.49MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [=============================================>     ]  38.34MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [==============================================>    ]  39.19MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [===============================================>   ]  39.62MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [================================================>  ]  40.89MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [=================================================> ]  41.75MB/41.83MB
+[6B[6A[2K
+5529e0792248: Extracting [==================================================>]  41.83MB/41.83MB
+[6B[6A[2K
+5529e0792248: Pull complete 
+[6B[5A[2K
+9b3addd3eb3d: Extracting [==================================================>]     628B/628B
+[5B[5A[2K
+9b3addd3eb3d: Extracting [==================================================>]     628B/628B
+[5B[5A[2K
+9b3addd3eb3d: Pull complete 
+[5B[4A[2K
+57910a8c4316: Extracting [==================================================>]     959B/959B
+[4B[4A[2K
+57910a8c4316: Extracting [==================================================>]     959B/959B
+[4B[4A[2K
+57910a8c4316: Pull complete 
+[4B[3A[2K
+7b5f78f21449: Extracting [==================================================>]     397B/397B
+[3B[3A[2K
+7b5f78f21449: Extracting [==================================================>]     397B/397B
+[3B[3A[2K
+7b5f78f21449: Pull complete 
+[3B[2A[2K
+b7923aa4e8a6: Extracting [==================================================>]  1.213kB/1.213kB
+[2B[2A[2K
+b7923aa4e8a6: Extracting [==================================================>]  1.213kB/1.213kB
+[2B[2A[2K
+b7923aa4e8a6: Pull complete 
+[2B[1A[2K
+785625911f12: Extracting [==================================================>]  1.402kB/1.402kB
+[1B[1A[2K
+785625911f12: Extracting [==================================================>]  1.402kB/1.402kB
+[1B[1A[2K
+785625911f12: Pull complete 
+[1BDigest: sha256:0f04e4f646a3f14bf31d8bc8d885b6c951fdcf42589d06845f64d18aec6a3c4d
+Status: Downloaded newer image for nginx:latest
+docker.io/library/nginx:latest
+[?2004h]0;root@durgabhavani-virtual-machine: ~root@durgabhavani-virtual-machine:~# docker run -d --name munginx[1Pnginxynginx[C[C[C[C[C nginx
+[?2004l
+554ec40401ffcf68daacb6b3f6d4a1701ab8dfeea197757a6118d9909b0f374f
+[?2004h]0;root@durgabhavani-virtual-machine: ~root@durgabhavani-virtual-machine:~# docker ps
+[?2004l
+CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS         PORTS     NAMES
+554ec40401ff   nginx     "/docker-entrypoint.…"   8 seconds ago   Up 7 seconds   80/tcp    mynginx
+[?2004h]0;root@durgabhavani-virtual-machine: ~root@durgabhavani-virtual-machine:~# docker psrun -d --name mynginx nginx[17Ppull[C[C[C[C[C[Crun hello-world
+[?2004l
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+[?2004h]0;root@durgabhavani-virtual-machine: ~root@durgabhavani-virtual-machine:~# docker run hello-worldps[K
+[?2004l
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS     NAMES
+554ec40401ff   nginx     "/docker-entrypoint.…"   51 seconds ago   Up 50 seconds   80/tcp    mynginx
+[?2004h]0;root@durgabhavani-virtual-machine: ~root@durgabhavani-virtual-machine:~# docker run hello-world
+[?2004l
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+[?2004h]0;root@durgabhavani-virtual-machine: ~root@durgabhavani-virtual-machine:~# docker run hello-worldps[K
+[?2004l
+CONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS              PORTS     NAMES
+554ec40401ff   nginx     "/docker-entrypoint.…"   About a minute ago   Up About a minute   80/tcp    mynginx
+[?2004h]0;root@durgabhavani-virtual-machine: ~root@durgabhavani-virtual-machine:~# docker ps -a
+[?2004l
+CONTAINER ID   IMAGE         COMMAND                  CREATED              STATUS                        PORTS     NAMES
+2d0993018237   hello-world   "/hello"                 21 seconds ago       Exited (0) 19 seconds ago               romantic_kowalevski
+4a7b620de70f   hello-world   "/hello"                 57 seconds ago       Exited (0) 55 seconds ago               keen_lalande
+554ec40401ff   nginx         "/docker-entrypoint.…"   About a minute ago   Up About a minute             80/tcp    mynginx
+2d17531d2410   hello-world   "/hello"                 2 minutes ago        Exited (0) 2 minutes ago                jovial_nobel
+428b4f10bf30   ubuntu        "/bin/bash"              25 minutes ago       Exited (127) 23 minutes ago             laughing_morse
+[?2004h]0;root@durgabhavani-virtual-machine: ~root@durgabhavani-virtual-machine:~# docker inspect mynginx
+[?2004l
+[
+    {
+        "Id": "554ec40401ffcf68daacb6b3f6d4a1701ab8dfeea197757a6118d9909b0f374f",
+        "Created": "2024-06-08T10:08:17.157609483Z",
+        "Path": "/docker-entrypoint.sh",
+        "Args": [
+            "nginx",
+            "-g",
+            "daemon off;"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 7677,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2024-06-08T10:08:18.457985111Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:4f67c83422ec747235357c04556616234e66fc3fa39cb4f40b2d4441ddd8f100",
+        "ResolvConfPath": "/var/lib/docker/containers/554ec40401ffcf68daacb6b3f6d4a1701ab8dfeea197757a6118d9909b0f374f/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/554ec40401ffcf68daacb6b3f6d4a1701ab8dfeea197757a6118d9909b0f374f/hostname",
+        "HostsPath": "/var/lib/docker/containers/554ec40401ffcf68daacb6b3f6d4a1701ab8dfeea197757a6118d9909b0f374f/hosts",
+        "LogPath": "/var/lib/docker/containers/554ec40401ffcf68daacb6b3f6d4a1701ab8dfeea197757a6118d9909b0f374f/554ec40401ffcf68daacb6b3f6d4a1701ab8dfeea197757a6118d9909b0f374f-json.log",
+        "Name": "/mynginx",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "bridge",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                38,
+                126
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": [],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/ebb113740bc3b61ae0f4d9bdac3bd5176447c74241b7ed48ba31c36705a328c3-init/diff:/var/lib/docker/overlay2/01f17037ccfe5c97b8a12327bf95a9e57940c9f9ea6f8ca1e452996be097c41e/diff:/var/lib/docker/overlay2/f1ae5daa53a798001a38a7c60cfa9db846db12727d106a35ffe79ee56d50ac9d/diff:/var/lib/docker/overlay2/e6cc2e822705169de63c83302aece9469b8ebc370bc4c544ae24fccfbca50c82/diff:/var/lib/docker/overlay2/635a735264007a2a2782eaf24478765a699b30ebb91d0726d68f398516018d06/diff:/var/lib/docker/overlay2/75a07974e8d182592c52f200705019c5c67e73a486949df6bd38af1986b2adfe/diff:/var/lib/docker/overlay2/459807c20deb1e5fc1ebb37eb9e4289fd19eef56a5caec20da1ca41bd3630461/diff:/var/lib/docker/overlay2/77a29ed4ffa2e23cbc0ac2021f5607d8e3e947efc71771b6a16feaf601b723ba/diff",
+                "MergedDir": "/var/lib/docker/overlay2/ebb113740bc3b61ae0f4d9bdac3bd5176447c74241b7ed48ba31c36705a328c3/merged",
+                "UpperDir": "/var/lib/docker/overlay2/ebb113740bc3b61ae0f4d9bdac3bd5176447c74241b7ed48ba31c36705a328c3/diff",
+                "WorkDir": "/var/lib/docker/overlay2/ebb113740bc3b61ae0f4d9bdac3bd5176447c74241b7ed48ba31c36705a328c3/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "554ec40401ff",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NGINX_VERSION=1.27.0",
+                "NJS_VERSION=0.8.4",
+                "NJS_RELEASE=2~bookworm",
+                "PKG_RELEASE=2~bookworm"
+            ],
+            "Cmd": [
+                "nginx",
+                "-g",
+                "daemon off;"
+            ],
+            "Image": "nginx",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "maintainer": "NGINX Docker Maintainers <docker-maint@nginx.com>"
+            },
+            "StopSignal": "SIGQUIT"
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "bb22594e5aef6e668285d3e009d615a8765ff237a82156c63efef21a8fe2f069",
+            "SandboxKey": "/var/run/docker/netns/bb22594e5aef",
+            "Ports": {
+                "80/tcp": null
+            },
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "ccf048de50ae78ec6723a6613478c68d795a37b18e8c2ae7b1fa798acc0632d7",
+            "Gateway": "172.17.0.1",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "172.17.0.2",
+            "IPPrefixLen": 16,
+            "IPv6Gateway": "",
+            "MacAddress": "02:42:ac:11:00:02",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "MacAddress": "02:42:ac:11:00:02",
+                    "NetworkID": "1143db14ed960121d6f2df4c26783115020db49a02060fb68bed087600f12f86",
+                    "EndpointID": "ccf048de50ae78ec6723a6613478c68d795a37b18e8c2ae7b1fa798acc0632d7",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.2",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DriverOpts": null,
+                    "DNSNames": null
+                }
+            }
+        }
+    }
+]
+[?2004h]0;root@durgabhavani-virtual-machine: ~root@durgabhavani-virtual-machine:~# docker inspect mynginx[C[C[K[K[K[K[K[K[Khello-wprld[1Prldorld[C[C[C
+[?2004l
+[
+    {
+        "Id": "sha256:d2c94e258dcb3c5ac2798d32e1249e42ef01cba4841c2234249495f87264ac5a",
+        "RepoTags": [
+            "hello-world:latest"
+        ],
+        "RepoDigests": [
+            "hello-world@sha256:266b191e926f65542fa8daaec01a192c4d292bff79426f47300a046e1bc576fd"
+        ],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2023-05-02T16:49:27Z",
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "/hello"
+            ],
+            "ArgsEscaped": true,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "/",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 13256,
+        "GraphDriver": {
+            "Data": {
+                "MergedDir": "/var/lib/docker/overlay2/624dd72e71d7b3a724eeb47eed81995bee8abb6a0161fb5f93d42bcff18c3879/merged",
+                "UpperDir": "/var/lib/docker/overlay2/624dd72e71d7b3a724eeb47eed81995bee8abb6a0161fb5f93d42bcff18c3879/diff",
+                "WorkDir": "/var/lib/docker/overlay2/624dd72e71d7b3a724eeb47eed81995bee8abb6a0161fb5f93d42bcff18c3879/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:ac28800ec8bb38d5c35b49d45a6ac4777544941199075dff8c4eb63e093aa81e"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
+[?2004h]0;root@durgabhavani-virtual-machine: ~root@durgabhavani-virtual-machine:~# exit
+[?2004l
+exit
+
+Script done on 2024-06-08 20:12:00+10:00 [COMMAND_EXIT_CODE="0"]
