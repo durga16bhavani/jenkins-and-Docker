@@ -1,0 +1,70 @@
+Script started on 2024-06-08 20:28:05+10:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="126" LINES="38"]
+[?2004h]0;root@durgabhavani-virtual-machine: ~root@durgabhavani-virtual-machine:~# exitdocker inspect hello-world[4Pmynginx[10Pps -a[Krun hello-worldps[Krun hello-worldps[Krun -d --name mynginx nginx[17Ppull[C[C[C[C[C[C[17@run -d --name mynginx[C[C[C[C[C[Cps[Krun hello-worldps[Krun hello-worldps[K -ainspect mynginxhello-worldexit[K[K[K[K[Kdocker images
+[?2004l
+REPOSITORY    TAG       IMAGE ID       CREATED         SIZE
+<none>        <none>    943e2c404a5b   3 minutes ago   208MB
+ubuntu        latest    17c0145030df   9 days ago      76.2MB
+nginx         latest    4f67c83422ec   9 days ago      188MB
+hello-world   latest    d2c94e258dcb   13 months ago   13.3kB
+[?2004h]0;root@durgabhavani-virtual-machine: ~root@durgabhavani-virtual-machine:~# docker tag nginx:latest durgabhavani324/nginx:version1
+[?2004l
+[?2004h]0;root@durgabhavani-virtual-machine: ~root@durgabhavani-virtual-machine:~# docker login
+[?2004l
+Log in with your Docker ID or email address to push and pull images from Docker Hub. If you don't have a Docker ID, head over to https://hub.docker.com/ to create one.
+You can log in with your password or a Personal Access Token (PAT). Using a limited-scope PAT grants better security and is required for organizations using SSO. Learn more at https://docs.docker.com/go/access-tokens/
+
+Username: durgabhavani324
+Password: 
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[?2004h]0;root@durgabhavani-virtual-machine: ~root@durgabhavani-virtual-machine:~# docker push durgabhavani324/nginx:c[Kversion1
+[?2004l
+The push refers to repository [docker.io/durgabhavani324/nginx]
+
+[1A[2K
+3f6a3d22b9ce: Preparing 
+[1B
+[1A[2K
+261a5dc153b4: Preparing 
+[1B
+[1A[2K
+7da4ba4a0030: Preparing 
+[1B
+[1A[2K
+10988c108f66: Preparing 
+[1B
+[1A[2K
+d58e4a0f2971: Preparing 
+[1B
+[1A[2K
+37719940dcaa: Preparing 
+[1B
+[1A[2K
+5d4427064ecc: Preparing 
+[1B[2A[2K
+37719940dcaa: Waiting 
+[2B[1A[2K
+5d4427064ecc: Waiting 
+[1B[4A[2K
+10988c108f66: Mounted from library/nginx 
+[4B[7A[2K
+3f6a3d22b9ce: Mounted from library/nginx 
+[7B[3A[2K
+d58e4a0f2971: Mounted from library/nginx 
+[3B[6A[2K
+261a5dc153b4: Mounted from library/nginx 
+[6B[5A[2K
+7da4ba4a0030: Mounted from library/nginx 
+[5B[2A[2K
+37719940dcaa: Mounted from library/nginx 
+[2B[1A[2K
+5d4427064ecc: Mounted from library/nginx 
+[1Bversion1: digest: sha256:0db204f933b6d1def0c0c15578f61a80091f8316b04150918413fc4d5c87be69 size: 1778
+[?2004h]0;root@durgabhavani-virtual-machine: ~root@durgabhavani-virtual-machine:~# exit
+[?2004l
+exit
+
+Script done on 2024-06-08 20:35:10+10:00 [COMMAND_EXIT_CODE="0"]
